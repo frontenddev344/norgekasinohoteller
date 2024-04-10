@@ -112,6 +112,10 @@ h3 {
     font-weight: 500;
     font-family: "Playfair Display";
 
+    @include mq(lg) {
+        font-size: 23px;
+    }
+
     @include mq(sm) {
         font-size: 21px;
     }

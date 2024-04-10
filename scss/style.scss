@@ -602,9 +602,20 @@ section.cuisine__main {
         justify-content: center;
         height: 100%;
 
+        span {
+            color: $clr-yellow;
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
         p {
             border-bottom: 1px solid #cfcbcb;
         }
+    }
+
+    &-content {
+        padding: 50px 0;
     }
 }
 

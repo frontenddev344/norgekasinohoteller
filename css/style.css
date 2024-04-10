@@ -109,6 +109,11 @@ h3 {
   font-weight: 500;
   font-family: "Playfair Display";
 }
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 23px;
+  }
+}
 @media screen and (max-width: 575px) {
   h3 {
     font-size: 21px;
@@ -644,8 +649,17 @@ section.cuisine__main {
   justify-content: center;
   height: 100%;
 }
+.culture-text span {
+  color: #fcc05d;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
 .culture-text p {
   border-bottom: 1px solid #cfcbcb;
+}
+.culture-content {
+  padding: 50px 0;
 }
 
 /*stories-css-end*/

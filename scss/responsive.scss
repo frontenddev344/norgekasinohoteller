@@ -30,6 +30,11 @@
     .site-nav li {
         font-size: 15px;
     }
+
+    .culture-picture img {
+        height: 720PX;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -211,6 +216,19 @@
         place-items: center;
         width: 100%;
     }
+
+    .culture-text {
+        margin-top: 20px;
+    }
+
+    .culture-picture img {
+        height: 400px;
+    }
+
+    .footer-mails a,
+    .footer-mails i {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -250,6 +268,10 @@
 
     .homecontent-para p {
         text-align: justify;
+    }
+
+    .cuisine__part p {
+        font-size: 13px;
     }
 }
 

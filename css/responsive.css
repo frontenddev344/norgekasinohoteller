@@ -108,6 +108,11 @@ h3 {
   font-weight: 500;
   font-family: "Playfair Display";
 }
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 23px;
+  }
+}
 @media screen and (max-width: 575px) {
   h3 {
     font-size: 21px;
@@ -144,6 +149,10 @@ h4 {
   }
   .site-nav li {
     font-size: 15px;
+  }
+  .culture-picture img {
+    height: 720PX;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 991px) {
@@ -295,6 +304,16 @@ h4 {
     place-items: center;
     width: 100%;
   }
+  .culture-text {
+    margin-top: 20px;
+  }
+  .culture-picture img {
+    height: 400px;
+  }
+  .footer-mails a,
+  .footer-mails i {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 767px) {
   img.img-fluid.aeroplane {
@@ -325,6 +344,9 @@ h4 {
   }
   .homecontent-para p {
     text-align: justify;
+  }
+  .cuisine__part p {
+    font-size: 13px;
   }
 }
 
