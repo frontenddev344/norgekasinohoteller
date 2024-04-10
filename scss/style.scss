@@ -632,6 +632,58 @@ section.cuisine__main {
     }
 }
 
+.destinationcard {
+    padding-bottom: 50px;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.destinationcard .box {
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 100%;
+
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.destinationcard .box .content-box {
+    transition: all 0.3s ease;
+    background-color: $clr-white;
+    margin: 0 auto;
+    border-radius: 8px;
+
+    h4 {
+        color: $clr-yellow;
+        font-weight: 700;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+
+.col-sm-12.col-md-6.col-lg-6.outer {
+    margin-bottom: 25px;
+}
+
 /*destination-css-end*/
 
 /*# sourceMappingURL=style.css.map */
