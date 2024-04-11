@@ -424,6 +424,7 @@ a.btn.btn-primary.accept-cookies:hover {
   color: #fcc05d;
   font-size: 25px;
   margin-bottom: 0;
+  font-weight: 600;
 }
 .content-wrap p {
   font-size: 15px;
