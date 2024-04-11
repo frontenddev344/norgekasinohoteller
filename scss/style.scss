@@ -222,13 +222,14 @@ nav.site-nav {
 
 .social-signals {
     padding: 25px 0;
+    cursor: pointer;
 
     i {
         color: $clr-white;
         font-size: 24px;
         text-align: center;
         line-height: 40px;
-        margin: 0 10px;
+        margin: 0 5px;
         border: 1px solid $clr-white;
         border-radius: 30px;
         height: 40px;
@@ -468,7 +469,7 @@ img.img-fluid.aeroplane {
 
 .casinohotel-main .row {
     background: rgba(64, 146, 255, 0.1215686275);
-    row-gap: 24px;
+    row-gap: 30px;
     padding: 20px;
     margin: 20px 0;
 }
@@ -608,9 +609,9 @@ section.cuisine__main {
             font-size: 17px;
         }
 
-        p {
-            border-bottom: 1px solid #cfcbcb;
-        }
+        // p {
+        //     // border-bottom: 1px solid #cfcbcb;
+        // }
     }
 
     &-content {
@@ -637,6 +638,15 @@ section.cuisine__main {
     h2 {
         text-align: center;
     }
+}
+
+.box.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .destinationcard .box {

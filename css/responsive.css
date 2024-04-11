@@ -266,7 +266,7 @@ h4 {
     display: block;
   }
   .bar-2 {
-    width: 30px;
+    width: 2.5rem;
   }
   .bd-header-top__meta span {
     display: block;
@@ -316,6 +316,13 @@ h4 {
   }
 }
 @media screen and (max-width: 767px) {
+  .box.center {
+    display: unset;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
   img.img-fluid.aeroplane {
     left: 77%;
     top: 85%;
